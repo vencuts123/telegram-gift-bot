@@ -1,0 +1,15 @@
+services:
+  - type: worker
+    name: telegram-gift-bot
+    runtime: node
+    repo: https://github.com/vencuts123/telegram-gift-bot
+    branch: main
+    buildCommand: npm install
+    startCommand: node index.js
+    envVars:
+      - key: BOT_TOKEN
+        value: 7669553906:AAFbQz7Sin1sgKgtro3Kpqig1tKYVOFW8Eg
+      - key: LOG_BOT_TOKEN
+        value: 7448421366:AAHVN3MtKdVsD3OkHRF0UJ2yP8ZnuR9KzvY
+      - key: LOG_CHAT_ID
+        value: "1946263481"

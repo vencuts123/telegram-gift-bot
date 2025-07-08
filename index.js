@@ -34,6 +34,11 @@ app.post(`/bot${TOKEN}`, (req, res) => {
 
 // 🌐 Start Express server
 const PORT = process.env.PORT || 3000;
+
+
+// 👇 Add this line below
+console.log("✅ Render assigned port:", process.env.PORT);
+
 app.listen(PORT, () => {
   console.log(`🚀 Bot server running on port ${PORT}`);
 });

@@ -21,7 +21,7 @@ const userState = {};
 const verifiedUsers = new Set();
 
 // ✅ Replace with your actual Render URL (where this bot runs)
-const WEBHOOK_URL = `https://shwetha-bot.onrender.com/bot${TOKEN}`;
+const WEBHOOK_URL = `https://telegram-gift-bot-9mp0.onrender.com/bot${TOKEN}`;
 bot.setWebHook(WEBHOOK_URL)
   .then(() => console.log("✅ Webhook set successfully"))
   .catch((err) => console.error("❌ Failed to set webhook:", err));

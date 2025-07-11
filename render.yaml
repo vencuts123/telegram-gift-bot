@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: telegram-gift-bot
     runtime: node
     repo: https://github.com/vencuts123/telegram-gift-bot
